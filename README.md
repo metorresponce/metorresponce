@@ -1,17 +1,18 @@
 > Available languages / Idiomas disponibles: [*English*](README.md) / [*Español*](README.ES.md)
 
-# Mariano Enrique Torres Ponce - DevOps & SRE
+# Mariano Enrique Torres Ponce - Technology Risk & Applied Cybersecurity
 
-Cloud & DevOps Engineer focused on resilient, reproducible infrastructure and MLOps automation. I build CI/CD pipelines, Kubernetes/Helm delivery, and observability stacks that run locally or in the cloud-with zero vendor lock-in for demos and testing.
+Technology risk and applied cybersecurity consultant with a background in cloud infrastructure, production operations, and resilience-oriented engineering. My work connects technical practice with risk reduction, secure technology use, observability, exposure analysis, and operational decision-making in complex environments.
 
-- Kubernetes (EKS/OpenShift) · Terraform/IaC · CI/CD (GitHub Actions/Jenkins)  
-- Docker/FastAPI · Observability (Prometheus, Grafana) · MLOps (MLflow)
+- Technology Risk · Applied Cybersecurity · Operational Resilience
+- Cloud Infrastructure · Production Operations · Exposure & Control
+- Observability · Automation · Secure Technology Use
 
 ## Highlights
-- Reproducible IaC and delivery workflows with automated validation, linting, and releases.
-- Serverless patterns on AWS emulated locally (LocalStack) for fast, cost-safe integration tests.
-- Hands-on observability for apps and models: metrics, dashboards, basic drift checks.
-- Experiment tracking and artifact versioning with MLflow for traceable ML lifecycles.
+- Technical labs and practical projects focused on resilience, traceability, and risk reduction in modern IT environments.
+- Hands-on work around cloud infrastructure, observability, automation, and operational controls.
+- Reproducible experiments designed to explore reliability, secure configuration, monitoring, and safer operational practices.
+- A technical portfolio built to connect infrastructure knowledge with cybersecurity, governance, and technology risk.
 
 ## Featured Projects
 
@@ -36,19 +37,19 @@ Cloud & DevOps Engineer focused on resilient, reproducible infrastructure and ML
 - **[GitHub Observability Demo](https://github.com/metorresponce/github-observability-demo/blob/main/README.md)** - Prometheus + Grafana stack + exporter for GitHub metrics.  
   [![compose-validate](https://github.com/metorresponce/github-observability-demo/actions/workflows/compose-validate.yml/badge.svg?branch=main&style=flat-square)](https://github.com/metorresponce/github-observability-demo/actions/workflows/compose-validate.yml)
 
-### MLOps
+### AI / ML Technical Experiments
 - **[ML Mini Pipeline](https://github.com/metorresponce/ml-mini-pipeline/blob/main/README.md)** - Mini ML pipeline (scikit-learn) that generates synthetic data, trains, and publishes artifacts (`model.pkl`, `metrics.json`) with CI.  
   [![ci](https://github.com/metorresponce/ml-mini-pipeline/actions/workflows/ci.yml/badge.svg?branch=main&style=flat-square)](https://github.com/metorresponce/ml-mini-pipeline/actions/workflows/ci.yml)
 
 - **[MLflow Mini Experiments](https://github.com/metorresponce/mlflow-mini-experiments/blob/main/README.md)** - Experiment tracking with MLflow: parameters, metrics, and models; reproducible CI; optional local UI with Docker Compose.  
   [![ci](https://github.com/metorresponce/mlflow-mini-experiments/actions/workflows/ci.yml/badge.svg?branch=main&style=flat-square)](https://github.com/metorresponce/mlflow-mini-experiments/actions/workflows/ci.yml)
 
-> All repos are free of corporate/cloud dependencies; everything runs locally or fully online via GitHub Actions.
+> All repositories are designed to be reproducible, easy to review, and independent from corporate environments, so they can be tested locally or through GitHub Actions.
 
-## Skills
-- IaC: Terraform (modules, workspaces), policy-as-code basics, validations in CI
-- Kubernetes: Helm packaging, rollout strategies, PDB/NetworkPolicy, KinD for CI
-- CI/CD: GitHub Actions, Jenkins, semantic versioning and automated releases
-- Observability: Prometheus exporters, Grafana dashboards, health checks
-- Python & APIs: FastAPI services, pytest, Dockerized builds
-- MLOps: MLflow tracking, artifact/version management, basic drift monitoring
+## Areas of Focus
+- Technology risk and operational resilience
+- Applied cybersecurity and secure technology use
+- Cloud infrastructure review and production-oriented controls
+- Observability, traceability, and monitoring practices
+- Automation and reproducible technical validation
+- Infrastructure and platform operations in critical environments
