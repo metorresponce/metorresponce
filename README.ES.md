@@ -1,54 +1,55 @@
 > Available languages / Idiomas disponibles: [*English*](README.md) / [*Español*](README.ES.md)
 
-# Mariano Enrique Torres Ponce - DevOps & MLOps
+# Mariano Enrique Torres Ponce - Technology Risk & Applied Cybersecurity
 
-Cloud & DevOps Engineer enfocado en infraestructura resiliente y reproducible, y en automatización MLOps. Construyo pipelines CI/CD, entrega con Kubernetes/Helm y stacks de observabilidad que pueden ejecutarse localmente o en cloud, sin dependencia de proveedores para demos y testing.
+Technology risk and applied cybersecurity consultant with a background in cloud infrastructure, production operations, and resilience-oriented engineering. My work connects technical practice with risk reduction, secure technology use, observability, exposure analysis, and operational decision-making in complex environments.
 
-- Kubernetes (EKS/OpenShift) · Terraform/IaC · CI/CD (GitHub Actions/Jenkins)  
-- Docker/FastAPI · Observabilidad (Prometheus, Grafana) · MLOps (MLflow)
+- Technology Risk · Applied Cybersecurity · Operational Resilience
+- Cloud Infrastructure · Production Operations · Exposure & Control
+- Observability · Automation · Secure Technology Use
 
 ## Highlights
-- Workflows de IaC y delivery reproducibles, con validación automática, linting y releases.
-- Patrones serverless en AWS emulados localmente (LocalStack) para tests de integración rápidos y sin costos.
-- Observabilidad práctica para apps y modelos: métricas, dashboards y chequeos básicos de drift.
-- Tracking de experimentos y versionado de artefactos con MLflow para ciclos de vida de ML trazables.
+- Technical labs and practical projects focused on resilience, traceability, and risk reduction in modern IT environments.
+- Hands-on work around cloud infrastructure, observability, automation, and operational controls.
+- Reproducible experiments designed to explore reliability, secure configuration, monitoring, and safer operational practices.
+- A technical portfolio built to connect infrastructure knowledge with cybersecurity, governance, and technology risk.
 
-## Proyectos destacados
+## Featured Projects
 
 ### Infrastructure as Code
-- **[Terraform Local Demo](https://github.com/metorresponce/terraform-local-demo/blob/main/README.ES.md)** - Infraestructura reproducible sin proveedores cloud (`local` + `random`). CI con `fmt` y `validate`.  
+- **[Terraform Local Demo](https://github.com/metorresponce/terraform-local-demo/blob/main/README.md)** - Reproducible infra without cloud providers (`local` + `random`). CI with `fmt` and `validate`.  
   [![terraform-ci](https://github.com/metorresponce/terraform-local-demo/actions/workflows/terraform-ci.yml/badge.svg?branch=main&style=flat-square)](https://github.com/metorresponce/terraform-local-demo/actions/workflows/terraform-ci.yml)
 
-- **[AWS Serverless Local Demo](https://github.com/metorresponce/aws-serverless-local-demo/blob/main/README.ES.md)** - Serverless “sin cloud”: S3 + SQS + DynamoDB sobre LocalStack, con tests de integración y CI en GitHub Actions.  
+- **[AWS Serverless Local Demo](https://github.com/metorresponce/aws-serverless-local-demo/blob/main/README.md)** - Serverless “without the cloud”: S3 + SQS + DynamoDB on LocalStack, with integration tests and CI in GitHub Actions.  
   [![ci](https://github.com/metorresponce/aws-serverless-local-demo/actions/workflows/ci.yml/badge.svg?branch=main&style=flat-square)](https://github.com/metorresponce/aws-serverless-local-demo/actions/workflows/ci.yml)
 
 ### Kubernetes & Delivery
-- **[Helm Chart Skeleton](https://github.com/metorresponce/helm-chart-skeleton/blob/main/README.ES.md)** - Esqueleto de Helm Chart para despliegues en Kubernetes, con CI (lint + template) y releases automatizados.  
+- **[Helm Chart Skeleton](https://github.com/metorresponce/helm-chart-skeleton/blob/main/README.md)** - Chart skeleton for K8s deployments with CI (lint + template) and automated releases.  
   [![chart-ci](https://github.com/metorresponce/helm-chart-skeleton/actions/workflows/chart-ci.yml/badge.svg?branch=main&style=flat-square)](https://github.com/metorresponce/helm-chart-skeleton/actions/workflows/chart-ci.yml)
 
-- **[Kubernetes Admin Ops Kit](https://github.com/metorresponce/k8s-admin-ops-kit/blob/main/README.ES.md)** - Runbooks-as-code para administradores de Kubernetes: playbooks Ansible (cordon/drain, reinicios ordenados, rollback), Helm Chart (api/worker/nlp con probes, PDB, NetworkPolicy) y CI con KinD.  
+- **[Kubernetes Admin Ops Kit](https://github.com/metorresponce/k8s-admin-ops-kit/blob/main/README.md)** - Runbooks-as-code for K8s admins: Ansible playbooks (cordon/drain, ordered restarts, rollback), Helm chart (api/worker/nlp with probes, PDB, NetworkPolicy), and CI with KinD.  
   [![ci](https://github.com/metorresponce/k8s-admin-ops-kit/actions/workflows/ci.yml/badge.svg?branch=main&style=flat-square)](https://github.com/metorresponce/k8s-admin-ops-kit/actions/workflows/ci.yml)
 
-### Observabilidad
-- **[FastAPI Observability Demo](https://github.com/metorresponce/fastapi-observability-demo/blob/main/README.ES.md)** - Servicio FastAPI con `/metrics`, tests y CI (pytest + build de Docker).  
+### Observability
+- **[FastAPI Observability Demo](https://github.com/metorresponce/fastapi-observability-demo/blob/main/README.md)** - FastAPI service with `/metrics`, tests, and CI (pytest + Docker build).  
   [![ci](https://github.com/metorresponce/fastapi-observability-demo/actions/workflows/ci.yml/badge.svg?branch=main&style=flat-square)](https://github.com/metorresponce/fastapi-observability-demo/actions/workflows/ci.yml)
 
-- **[GitHub Observability Demo](https://github.com/metorresponce/github-observability-demo/blob/main/README.ES.md)** - Stack de Prometheus + Grafana + exporter para métricas de GitHub.  
+- **[GitHub Observability Demo](https://github.com/metorresponce/github-observability-demo/blob/main/README.md)** - Prometheus + Grafana stack + exporter for GitHub metrics.  
   [![compose-validate](https://github.com/metorresponce/github-observability-demo/actions/workflows/compose-validate.yml/badge.svg?branch=main&style=flat-square)](https://github.com/metorresponce/github-observability-demo/actions/workflows/compose-validate.yml)
 
-### MLOps
-- **[ML Mini Pipeline](https://github.com/metorresponce/ml-mini-pipeline/blob/main/README.ES.md)** - Mini pipeline de ML (scikit-learn) que genera datos sintéticos, entrena y publica artefactos (`model.pkl`, `metrics.json`) con CI.  
+### AI / ML Technical Experiments
+- **[ML Mini Pipeline](https://github.com/metorresponce/ml-mini-pipeline/blob/main/README.md)** - Mini ML pipeline (scikit-learn) that generates synthetic data, trains, and publishes artifacts (`model.pkl`, `metrics.json`) with CI.  
   [![ci](https://github.com/metorresponce/ml-mini-pipeline/actions/workflows/ci.yml/badge.svg?branch=main&style=flat-square)](https://github.com/metorresponce/ml-mini-pipeline/actions/workflows/ci.yml)
 
-- **[MLflow Mini Experiments](https://github.com/metorresponce/mlflow-mini-experiments/blob/main/README.ES.md)** - Tracking de experimentos con MLflow: parámetros, métricas y modelos; CI reproducible; UI local opcional con Docker Compose.  
+- **[MLflow Mini Experiments](https://github.com/metorresponce/mlflow-mini-experiments/blob/main/README.md)** - Experiment tracking with MLflow: parameters, metrics, and models; reproducible CI; optional local UI with Docker Compose.  
   [![ci](https://github.com/metorresponce/mlflow-mini-experiments/actions/workflows/ci.yml/badge.svg?branch=main&style=flat-square)](https://github.com/metorresponce/mlflow-mini-experiments/actions/workflows/ci.yml)
 
-> Todos los repos están libres de dependencias corporativas o de cloud: todo puede ejecutarse localmente o validarse completamente online mediante GitHub Actions.
+> All repositories are designed to be reproducible, easy to review, and independent from corporate environments, so they can be tested locally or through GitHub Actions.
 
-## Skills
-- IaC: Terraform (módulos, workspaces), nociones de policy-as-code, validaciones en CI
-- Kubernetes: empaquetado con Helm, estrategias de rollout, PDB/NetworkPolicy, KinD para CI
-- CI/CD: GitHub Actions, Jenkins, versionado semántico y releases automatizados
-- Observabilidad: exporters de Prometheus, dashboards en Grafana, health checks
-- Python & APIs: servicios FastAPI, pytest, builds dockerizados
-- MLOps: tracking con MLflow, gestión de artefactos/versiones, monitoreo básico de drift
+## Areas of Focus
+- Technology risk and operational resilience
+- Applied cybersecurity and secure technology use
+- Cloud infrastructure review and production-oriented controls
+- Observability, traceability, and monitoring practices
+- Automation and reproducible technical validation
+- Infrastructure and platform operations in critical environments
