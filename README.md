@@ -4,6 +4,9 @@
 
 Technology risk and applied cybersecurity consultant with a background in cloud infrastructure, production operations, and resilience-oriented engineering. My work connects technical practice with risk reduction, secure technology use, observability, exposure analysis, and operational decision-making in complex environments.
 
+For current work, writing, and public profile:  
+[www.metorresponce.com](https://metorresponce.com)
+
 - Technology Risk · Applied Cybersecurity · Operational Resilience
 - Cloud Infrastructure · Production Operations · Exposure & Control
 - Observability · Automation · Secure Technology Use
