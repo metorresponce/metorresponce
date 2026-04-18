@@ -3,6 +3,8 @@
 # Mariano Enrique Torres Ponce - Riesgo Tecnológico y Ciberseguridad Aplicada
 
 Consultor en riesgo tecnológico y ciberseguridad aplicada, con experiencia en infraestructura cloud, operación de entornos productivos e ingeniería orientada a la resiliencia. Mi trabajo conecta la práctica técnica con la reducción del riesgo, el uso seguro de la tecnología, la observabilidad, el análisis de exposición y la toma de decisiones operativas en entornos complejos.
+Para trabajo actual, publicaciones y perfil público:  
+[metorresponce.com](https://metorresponce.com)
 
 - Riesgo Tecnológico · Ciberseguridad Aplicada · Resiliencia Operativa
 - Infraestructura Cloud · Operación de Producción · Exposición y Controles
